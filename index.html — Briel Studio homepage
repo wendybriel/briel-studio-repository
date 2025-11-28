@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Briel Studio — Architecting Meaningful Brands</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <div class="site-logo">BRIEL STUDIO</div>
+    <nav class="site-nav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#work">Selected Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="section section--light" id="top">
+  <div class="container hero">
+    <div>
+      <div class="hero__tag">
+        <span class="hero__tag-dot"></span>
+        <span>Creative Systems & Visual Architecture</span>
+      </div>
+
+      <h1 class="heading-xl" style="margin-top:16px;">
+        Briel Studio<br>
+        Architecting Meaningful Brands.
+      </h1>
+
+      <p class="text-lede" style="margin-top:18px;">
+        Strategic clarity for ambitious growth. A quiet-luxury studio blending brand systems, visual storytelling,
+        and practical structure for products that want to feel as intentional as they are intelligent.
+      </p>
+
+      <div class="button-row">
+        <a href="#services" class="button button--primary">Explore Services</a>
+        <a href="app-store-redesign.html" class="button button--ghost">App Store Redesigns</a>
+      </div>
+    </div>
+
+    <div class="hero__visual">
+      <div class="hero__visual-inner">
+        <!-- Swap these with your real composites -->
+        <img src="polished-signal-grid.png" alt="Polished Signal preview">
+        <img src="aura-grid.png" alt="Aura preview">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section section--light" id="about">
+  <div class="container grid-2">
+    <div>
+      <h2 class="heading-m">ABOUT</h2>
+      <h3 class="heading-l" style="margin-top:8px;">
+        A studio for clarity, structure, and quiet transformation.
+      </h3>
+    </div>
+    <div>
+      <p>
+        Briel Studio is the creative-operational practice of Wendy Briel: a multidisciplinary approach that threads
+        brand strategy, visual direction, and system design into one coherent experience.
+      </p>
+      <p class="text-subtle">
+        The work favors: editorial calm, intelligent composition, and long-term usefulness over trend-driven noise.
+      </p>
+      <p>
+        Whether it’s an app, a product, or a brand ecosystem, the goal is to build something that feels
+        thoughtfully designed, emotionally grounded, and structurally sound.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section section--light" id="services">
+  <div class="container">
+    <h2 class="heading-m">SERVICES</h2>
+    <h3 class="heading-l" style="margin-top:8px;max-width:540px;">
+      Systems, visuals, and narratives for thoughtful products.
+    </h3>
+
+    <div class="grid-3" style="margin-top:32px;">
+      <div class="card">
+        <h4>Brand Systems & Identity</h4>
+        <p class="text-subtle">
+          Frameworks, tone, and visual direction for brands that need more than a logo — foundations you can grow on.
+        </p>
+      </div>
+      <div class="card">
+        <h4>Product Visual Architecture</h4>
+        <p class="text-subtle">
+          UI narratives, launch visuals, and editorial compositions that make complex products feel simple and inviting.
+        </p>
+      </div>
+      <div class="card">
+        <h4>App Store Redesigns</h4>
+        <p class="text-subtle">
+          Premium screenshot systems, icons, and copy for apps ready to look as polished as they perform.
+        </p>
+        <a href="app-store-redesign.html" class="button button--ghost" style="margin-top:10px;">
+          View specialized offer
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SELECTED WORK -->
+<section class="section section--light" id="work">
+  <div class="container">
+    <h2 class="heading-m">SELECTED WORK</h2>
+    <h3 class="heading-l" style="margin-top:8px;max-width:540px;">
+      A quiet trio of digital systems.
+    </h3>
+
+    <div class="grid-3" style="margin-top:32px;">
+      <article class="portfolio-card">
+        <div class="portfolio-card__image">
+          <img src="polished-signal-grid.png" alt="Polished Signal grid">
+        </div>
+        <span class="portfolio-card__label">Hybrid Luxe • Clarity Engine</span>
+        <h4>Polished Signal</h4>
+        <p class="text-subtle">
+          A metallic, precision-first identity for an app that filters noise and amplifies signal.
+        </p>
+      </article>
+
+      <article class="portfolio-card">
+        <div class="portfolio-card__image">
+          <img src="aura-grid.png" alt="Aura grid">
+        </div>
+        <span class="portfolio-card__label">Minimal Zen • Wellness</span>
+        <h4>Aura</h4>
+        <p class="text-subtle">
+          A calm, minimal-zen wellness system for breath, mood, and daily rituals.
+        </p>
+      </article>
+
+      <article class="portfolio-card">
+        <div class="portfolio-card__image">
+          <img src="axis-grid.png" alt="Axis grid">
+        </div>
+        <span class="portfolio-card__label">System Modernism • Productivity</span>
+        <h4>Axis</h4>
+        <p class="text-subtle">
+          A geometric clarity dashboard for organizing tasks, timelines, and priorities.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT / CTA -->
+<section class="section section--light" id="contact">
+  <div class="container">
+    <div class="cta-band">
+      <div>
+        <h3 class="heading-l">Let’s design something precise and beautiful.</h3>
+        <p class="text-subtle">
+          Share a link, a brief, or a loose idea. I’ll respond with a direction, a structure, or a first visual to react to.
+        </p>
+      </div>
+
+      <form name="briel-contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="briel-contact">
+        <div class="cta-band__form-row">
+          <input class="input-pill" type="text" name="name" placeholder="Name">
+          <input class="input-pill" type="email" name="email" placeholder="Email">
+        </div>
+        <div style="margin-top:12px;max-width:540px;">
+          <input class="input-pill" type="text" name="message" placeholder="Project, app, or brand link">
+        </div>
+        <div style="margin-top:16px;">
+          <button type="submit" class="button button--primary" style="background:#F7F7F7;color:#111217;border-color:#F7F7F7;">
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer__row">
+    <span>© Briel Studio · Wendy Briel</span>
+    <span class="text-subtle">App Store redesigns · brand systems · digital clarity.</span>
+  </div>
+</footer>
+
+</body>
+</html>
