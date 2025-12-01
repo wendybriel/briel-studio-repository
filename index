@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Briel Studio — Architecting Meaningful Brands</title>
+
+  <!-- Type -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Lato:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-main: #f3ebdf;
+      --bg-alt: #efe4d5;
+      --bg-deep: #e0d0bd;
+      --ink-dark: #201815;
+      --ink-soft: #4f4139;
+      --line-soft: rgba(32, 24, 21, 0.18);
+      --max-width: 1080px;
+      --radius-soft: 18px;
+    }
